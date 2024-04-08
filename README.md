@@ -1,6 +1,28 @@
-# Shopping App
+# ShoppingApp Project Documentation
 
-This repository contains the source code for a Shopping App, implemented using Spring Boot.
+## Overview
+The ShoppingApp project is a Java-based application developed to simulate an online shopping experience. It includes functionalities such as managing inventory, processing orders, applying coupons, and handling transactions.
+
+## Features
+- **Inventory Management:** Allows users to view available products, check stock levels, and manage inventory.
+- **Order Processing:** Enables users to place orders, specifying the quantity and applying discount coupons if available.
+- **Coupon Application:** Supports the application of discount coupons to orders, providing users with savings on their purchases.
+- **Transaction Handling:** Manages payment transactions securely, ensuring smooth processing and tracking of order payments.
+
+## Technologies Used
+- **Java:** The core programming language used for backend development.
+- **Spring Boot:** Provides a robust framework for building and running Java-based applications.
+- **Hibernate:** Used for object-relational mapping (ORM) to interact with the database.
+- **MySQL:** The relational database management system used for storing application data.
+- **Postman:** Used for testing API endpoints and verifying application functionality.
+- **GitHub:** Version control system for managing project code and collaboration.
+
+## Project Structure
+- **Controllers:** Contains classes to handle HTTP requests and route them to appropriate service methods.
+- **Services:** Implements business logic and handles application functionality such as inventory management, order processing, and coupon application.
+- **Repositories:** Interfaces for database interaction, defining CRUD operations and custom queries.
+- **Models:** Defines data structures for representing entities such as Inventory, Order, Coupon, Transaction, and User.
+
 
 ## Prerequisites
 
